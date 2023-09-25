@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+/* Estilizando o container do slider */
+.my-slider {
+    background-color: #dde3f1;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+.img-thumbnail{padding:.25rem;background-color:#fff;border:1px solid var(--bs-border-color);border-radius:.375rem;max-width:100%;height:auto}.figure{display:inline-block}.figure-img{margin-bottom:.5rem;line-height:1}.figure-caption{font-size:.875em;color:#6c757d}.container,.container-fluid,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl
+
+.clients {
+    padding-top: 5px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.clients img {
+    max-width: 100%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding-right: 0;
+    padding-left: 0;
+    filter: grayscale(100);
+}
+
+.clients img:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
+}
+
+
+
